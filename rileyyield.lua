@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	-- error("Riley Yield is already running!", 0)
+	-- error("Infinity Yield is already running!", 0)
 	return
 end
 
@@ -14,7 +14,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '6.0.0'
+currentVersion = '5.9.4'
 
 Players = game:GetService("Players")
 
@@ -198,7 +198,7 @@ Holder.Size = UDim2.new(0, 250, 0, 220)
 Holder.ZIndex = 10
 table.insert(shade2,Holder)
 
-Title.Name = "Riley Yield"
+Title.Name = "Infinity Yield"
 Title.Parent = Holder
 Title.Active = true
 Title.BackgroundColor3 = Color3.fromRGB(36,36,37)
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Riley Yield FE.." .. currentVersion
+Title.Text = "Riley Yield" .. currentVersion
 
 do
 	local emoji = ({
@@ -241,14 +241,14 @@ Title.ZIndex = 10
 table.insert(shade1,Title)
 table.insert(text1,Title)
 
-Yellow.Name = "Yellow"
-Yellow.Parent = Holder
-Yellow.Active = true
-Yellow.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
-Yellow.BorderSizePixel = 0
-Yellow.Position = UDim2.new(0, 0, 0, 45)
-Yellow.Size = UDim2.new(0, 250, 0, 175)
-Yellow.ZIndex = 10
+Dark.Name = "Dark"
+Dark.Parent = Holder
+Dark.Active = true
+Dark.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Dark.BorderSizePixel = 0
+Dark.Position = UDim2.new(0, 0, 0, 45)
+Dark.Size = UDim2.new(0, 250, 0, 175)
+Dark.ZIndex = 10
 table.insert(shade1,Dark)
 
 Cmdbar.Name = "Cmdbar"
