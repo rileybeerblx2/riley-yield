@@ -241,15 +241,15 @@ Title.ZIndex = 10
 table.insert(shade1,Title)
 table.insert(text1,Title)
 
-Dark.Name = "Blue"
-Dark.Parent = Holder
-Dark.Active = true
-Dark.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
-Dark.BorderSizePixel = 0
-Dark.Position = UDim2.new(0, 0, 0, 45)
-Dark.Size = UDim2.new(0, 250, 0, 175)
-Dark.ZIndex = 10
-table.insert(shade1,Dark)
+Blue.Name = "Blue"
+Blue.Parent = Holder
+Blue.Active = true
+Blue.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Blue.BorderSizePixel = 0
+Blue.Position = UDim2.new(0, 0, 0, 45)
+Blue.Size = UDim2.new(0, 250, 0, 175)
+Blue.ZIndex = 10
+table.insert(shade1,Blue)
 
 Cmdbar.Name = "Cmdbar"
 Cmdbar.Parent = Holder
