@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	-- error("Infinity Yield is already running!", 0)
+	-- error("Riley Yield is already running!", 0)
 	return
 end
 
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Riley Yield" .. currentVersion
+Title.Text = "Riley Yield.." ..currentVersion
 
 do
 	local emoji = ({
@@ -241,7 +241,7 @@ Title.ZIndex = 10
 table.insert(shade1,Title)
 table.insert(text1,Title)
 
-Dark.Name = "Dark"
+Dark.Name = "Blue"
 Dark.Parent = Holder
 Dark.Active = true
 Dark.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
