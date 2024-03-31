@@ -198,7 +198,7 @@ Holder.Size = UDim2.new(0, 250, 0, 220)
 Holder.ZIndex = 10
 table.insert(shade2,Holder)
 
-Title.Name = "Infinity Yield"
+Title.Name = "Riley Yield FE"
 Title.Parent = Holder
 Title.Active = true
 Title.BackgroundColor3 = Color3.fromRGB(36,36,37)
@@ -206,7 +206,7 @@ Title.BorderSizePixel = 0
 Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
-Title.Text = "Riley Yield.." ..currentVersion
+Title.Text = "Riley Yield v" ..currentVersion
 
 do
 	local emoji = ({
@@ -241,15 +241,15 @@ Title.ZIndex = 10
 table.insert(shade1,Title)
 table.insert(text1,Title)
 
-Blue.Name = "Blue"
-Blue.Parent = Holder
-Blue.Active = true
-Blue.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
-Blue.BorderSizePixel = 0
-Blue.Position = UDim2.new(0, 0, 0, 45)
-Blue.Size = UDim2.new(0, 250, 0, 175)
-Blue.ZIndex = 10
-table.insert(shade1,Blue)
+Dark.Name = "Dark"
+Dark.Parent = Holder
+Dark.Active = true
+Dark.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+Dark.BorderSizePixel = 0
+Dark.Position = UDim2.new(0, 0, 0, 45)
+Dark.Size = UDim2.new(0, 250, 0, 175)
+Dark.ZIndex = 10
+table.insert(shade1,Dark)
 
 Cmdbar.Name = "Cmdbar"
 Cmdbar.Parent = Holder
